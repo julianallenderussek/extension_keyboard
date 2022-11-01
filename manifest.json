@@ -2,17 +2,12 @@
   "name": "keyboard navigator",
   "description": "my ext",
   "version": "0.1.0",
-  "manifest_version": "2",
+  "manifest_version": 3,
   "icons": {
-    "16": "",
-    "32": "",
-    "48": "",
-    "129": ""
-  },
-  "background": {
-    "scripts": [
-      "./background.js"
-    ]
+    "16": "./planet.png",
+    "32": "./planet.png",
+    "48": "./planet.png",
+    "129": "./planet.png"
   },
   "options_page": "./options.html",
   "browser_actions": {
@@ -20,6 +15,7 @@
   },
   "permissions": [
     "tabs",
-    "https://www.google.com"
+    "https://www.google.com/",
+    "scripting"
   ]
 }
